@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 75015
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:charged_projectiles": [
+        {
+          "id":"minecraft:arrow"
+        }
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Tags:[\"pir.pistol.bb\",\"pir.selected_item\",\"pir.iron_pistol\"]}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "pir.charge_pistol",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

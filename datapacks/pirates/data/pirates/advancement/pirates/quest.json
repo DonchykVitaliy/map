@@ -1,0 +1,32 @@
+
+      {
+        "display": {
+          "icon": {
+            "id": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_model_data": 75009
+            }
+          },
+          "title": {
+            "translate": "pir.adv.quest.bb",
+            "bold": false
+          },
+          "description": {
+            "translate": "pir.adv.quest1.bb",
+            "bold": false,
+            "italic": false
+          },
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": true,
+          "hidden": false
+        },
+        "parent": "pirates:pirates/upgrade",
+        "criteria": {
+          "explored_swamp": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+          }
+        }
+      }
+      

@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 1,
+                  "eat_seconds": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.coconut\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 70200
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.coconut.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

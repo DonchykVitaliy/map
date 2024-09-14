@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "parrot": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:ships/advancements/give_tag"
+  }
+}

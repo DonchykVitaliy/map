@@ -1,0 +1,5 @@
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.rifle.bb","pir.selected_item"]},!minecraft:charged_projectiles=[{ id: "minecraft:arrow"}]] run item modify entity @s weapon.mainhand pirates:rifle/block_rifle
+execute if items entity @s weapon.offhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.rifle.bb","pir.selected_item"]},!minecraft:charged_projectiles=[{ id: "minecraft:arrow"}]] run item modify entity @s weapon.offhand pirates:rifle/block_rifle
+
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.enchanted_speed","pir.rifle.bb","pir.selected_item"]},!minecraft:charged_projectiles=[{ id: "minecraft:arrow"}]] run item modify entity @s weapon.mainhand pirates:rifle/block_rifle_enchanted
+execute if items entity @s weapon.offhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.enchanted_speed","pir.rifle.bb","pir.selected_item"]},!minecraft:charged_projectiles=[{ id: "minecraft:arrow"}]] run item modify entity @s weapon.offhand pirates:rifle/block_rifle_enchanted

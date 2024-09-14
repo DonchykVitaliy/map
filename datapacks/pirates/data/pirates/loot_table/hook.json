@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:player.entity_interaction_range",
+                      "id": "sword",
+                      "amount": -0.3,
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "id": "sword",
+                      "amount": 1,
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "id": "sword",
+                      "amount": 0.2,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.dagger\"]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "pir.hook_info.bb",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.hook_info1.bb",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.hook_info2.bb",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.hook_info3.bb",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 74000
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.hook.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

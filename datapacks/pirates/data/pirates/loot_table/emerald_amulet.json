@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true
+            }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "pir.emerald_amulet_info.bb",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.emerald_amulet_info1.bb",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.emerald_amulet.bb\",\"pir.selected_item\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 73021
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.emerald_amulet.bb",
+                "color": "aqua"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

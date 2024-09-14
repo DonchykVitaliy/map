@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 71100
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pir.painting_ocean.bb",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.painting_ocean1.bb",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "2x2",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "pirates:painting",
+                  "variant":"pirates:sponge_bob"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

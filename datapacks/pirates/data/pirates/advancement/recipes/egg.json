@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg",
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:items/recipes/egg"
+  }
+}

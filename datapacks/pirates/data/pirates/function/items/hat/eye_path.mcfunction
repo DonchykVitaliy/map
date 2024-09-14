@@ -1,0 +1,3 @@
+execute if entity @s[nbt={Inventory:[{id:"minecraft:iron_helmet",Slot:103b,components:{"minecraft:custom_data":{Tags:["pir.eye_path.bb"]}}}]}] run function pirates:items/hat/eye_path_equip
+
+execute if entity @s[nbt={Inventory:[{id:"minecraft:firework_star",components:{"minecraft:custom_data":{Tags:["pir.eye_path.bb"]}}}]}] unless entity @s[nbt={Inventory:[{id:"minecraft:firework_star",Slot:103b,components:{"minecraft:custom_data":{Tags:["pir.eye_path.bb"]}}}]}] run function pirates:items/hat/eye_path_remove

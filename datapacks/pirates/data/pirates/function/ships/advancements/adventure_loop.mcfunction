@@ -1,0 +1,2 @@
+execute as @a[tag=pir.adventure_time.bb] at @s if score @s pir.use_spyglass.bb matches 1.. if entity @e[type=boat,distance=..0.5,tag=pir.with_sail] if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{Tags:["pir.eye_path.bb"]}}}]}] run function pirates:ships/advancements/adventure_give
+scoreboard players set @a[tag=pir.adventure_time.bb] pir.use_spyglass.bb 0

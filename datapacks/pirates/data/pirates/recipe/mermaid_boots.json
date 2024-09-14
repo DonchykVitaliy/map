@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "@": {
+      "item": "minecraft:firework_star"
+    }
+  },
+  "pattern": [
+    "   ",
+    "@ @",
+    "@ @"
+  ],
+  "result": {
+    "id": "minecraft:iron_boots",
+    "components":{
+      "custom_model_data":71000,
+      "minecraft:max_damage": 255,
+      "item_name":"[{'translate':'pir.mermaid_boots.bb'}]",
+      "minecraft:custom_data": {
+        "Tags": ["pir.mermaid_boots.bb","pir.selected_item"]
+      },
+      "minecraft:trim": {
+                  "material": "minecraft:quartz",
+                  "pattern": "minecraft:mermaid",
+                  "show_in_tooltip": false
+                }
+    }
+  }
+}

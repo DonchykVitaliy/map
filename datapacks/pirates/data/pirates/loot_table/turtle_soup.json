@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 11,
+                  "saturation": 11,
+                  "eat_seconds": 2,
+                  "using_converts_to": {
+                    "id": "minecraft:turtle_scute"
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.selected_item\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 77000
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.turtle_soup.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

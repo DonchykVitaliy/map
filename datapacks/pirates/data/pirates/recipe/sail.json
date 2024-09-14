@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:wool"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "###",
+    "@#@",
+    " $ "
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components":{
+      "custom_model_data":73005,
+      "item_name":"[{'translate':'pir.c_sail.bb','italic':false}]",
+      "minecraft:custom_data": {
+        "Tags": ["pir.sail.bb","pir.color_sail.bb","pir.rcm_stick.bb"]
+      }
+    }
+  }
+}

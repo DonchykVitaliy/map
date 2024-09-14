@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.mermaid_scales.bb\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 73014
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.mermaid_scales.bb"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 0.8,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:poison",
+                        "amplifier": 3,
+                        "duration": 20,
+                        "ambient": false,
+                        "show_particles": false,
+                        "show_icon": false
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

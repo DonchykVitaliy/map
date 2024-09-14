@@ -1,0 +1,19 @@
+{"values":
+	[
+	"minecraft:item_frame",
+	"marker",
+	"interaction",
+	"item_display",
+	"item",
+	"area_effect_cloud",
+	"arrow",
+	"block_display",
+	"text_display",
+	"firework_rocket",
+	"falling_block",
+	"fireball",
+	"small_fireball",
+	"dragon_fireball",
+	"armor_stand"
+	]
+}

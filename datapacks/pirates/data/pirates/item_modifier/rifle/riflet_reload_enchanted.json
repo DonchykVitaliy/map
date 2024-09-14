@@ -1,0 +1,47 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 75002
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:charged_projectiles": [
+        {
+          "id":"minecraft:arrow"
+        }
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Tags:[\"pir.enchanted_speed\",\"pir.rifle.bb\",\"pir.selected_item\"]}"
+  },
+  {
+    "function": "minecraft:enchant_with_levels",
+    "levels": 0
+  },
+  {
+    "function": "minecraft:toggle_tooltips",
+    "toggles": {
+      "minecraft:enchantments": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "pir.charge_rifle",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "translate": "pir.enchant_rifle",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

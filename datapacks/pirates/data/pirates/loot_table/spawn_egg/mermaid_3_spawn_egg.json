@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:silverfish_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags":["pir.spawn_egg","pir.mermaid_3.bb","pir.custom_mobs"]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.mermaid_egg.bb"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 73024
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

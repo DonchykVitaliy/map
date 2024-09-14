@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:turtle_scute"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:items/recipes/turtle_scute"
+  }
+}

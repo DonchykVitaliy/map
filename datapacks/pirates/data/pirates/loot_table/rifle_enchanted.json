@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 0
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:enchantments": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.enchanted_speed\",\"pir.rifle.bb\",\"pir.selected_item\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 75000
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.rifle.bb"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pir.air_rifle",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.enchant_rifle",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:charged_projectiles": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

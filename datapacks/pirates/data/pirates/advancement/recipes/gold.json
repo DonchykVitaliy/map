@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot",
+              "minecraft:gold_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:items/recipes/gold"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "mermaid_scales",
+  "description": {
+	"color": "#428073",
+    "translate": "pir.trim_material.mermaid_scales"
+  },
+  "ingredient": "minecraft:firework_star",
+  "item_model_index": 0.7
+}

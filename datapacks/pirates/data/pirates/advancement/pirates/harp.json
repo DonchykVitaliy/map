@@ -1,0 +1,32 @@
+
+      {
+        "display": {
+          "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+              "minecraft:custom_model_data": 73011
+            }
+          },
+          "title": {
+            "translate": "pir.adv.harp.bb",
+            "bold": false
+          },
+          "description": {
+            "translate": "pir.adv.harp1.bb",
+            "bold": false,
+            "italic": false
+          },
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": true,
+          "hidden": false
+        },
+        "parent": "pirates:pirates/mermaid_trim",
+        "criteria": {
+          "explored_swamp": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+          }
+        }
+      }
+      

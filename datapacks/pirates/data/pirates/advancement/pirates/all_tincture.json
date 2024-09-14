@@ -1,0 +1,108 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silverfish_spawn_egg",
+      "components": {
+        "minecraft:custom_model_data": 73004
+      }
+    },
+    "title": {
+      "translate": "pir.adv.all_tincture.bb",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.all_tincture1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pirates:pirates/breawing_barrel",
+  "criteria": {
+    "beer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle",
+            "components": {
+              "minecraft:custom_model_data": 70000
+            }
+          }
+        ]
+      }
+    },
+    "rum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle",
+            "components": {
+              "minecraft:custom_model_data": 70001
+            }
+          }
+        ]
+      }
+    },
+    "coconut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle",
+            "components": {
+              "minecraft:custom_model_data": 70003
+            }
+          }
+        ]
+      }
+    },
+    "berry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle",
+            "components": {
+              "minecraft:custom_model_data": 70002
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle",
+            "components": {
+              "minecraft:custom_model_data": 70004
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beer"
+    ],
+    [
+      "rum"
+    ],
+    [
+      "coconut"
+    ],
+    [
+      "berry"
+    ],
+    [
+      "pumpkin"
+    ]
+  ]
+}

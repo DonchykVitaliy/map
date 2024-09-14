@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "$": {
+      "item": "minecraft:string"
+    },
+    "@": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "@##",
+    "@$#",
+    "@# "
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components":{
+      "custom_model_data":73012,
+      "item_name":"[{'translate':'pir.harp.bb'}]",
+      "minecraft:max_damage": 128,
+      "minecraft:custom_data": {
+        "Tags": ["pir.harp.bb","pir.rcm_stick.bb"]
+      }
+    }
+  }
+}

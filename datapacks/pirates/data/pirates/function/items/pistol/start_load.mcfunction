@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.pistol.bb","pir.selected_item","pir.iron_pistol","pir.empty"]}] if score @s pir.pistol.bb matches ..0 if items entity @s container.* minecraft:firework_star[minecraft:custom_model_data=73003] run scoreboard players set @s pir.pistol.bb 60
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.pistol.bb","pir.selected_item","pir.gold_pistol","pir.empty"]}] if score @s pir.pistol.bb matches ..0 if items entity @s container.* minecraft:firework_star[minecraft:custom_model_data=73003] run scoreboard players set @s pir.pistol.bb 60
+execute if score @s pir.pistol.bb matches 1.. run function pirates:items/pistol/load

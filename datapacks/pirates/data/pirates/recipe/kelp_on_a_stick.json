@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:fishing_rod"
+      },
+      {
+          "item": "minecraft:kelp"
+      }
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components":{
+      "custom_model_data":73008,
+      "item_name":"[{'translate':'pir.kelp_on_a_stick.bb','italic':false}]",
+      "minecraft:custom_data": {
+        "Tags": ["pir.kelp_on_a_stick.bb","pir.rcm_stick.bb"]
+      }
+    }
+  }
+}

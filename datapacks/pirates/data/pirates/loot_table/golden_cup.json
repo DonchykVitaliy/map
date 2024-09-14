@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.golden_cup.bb\",\"pir.selected_item\",\"pir.beverages\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 70005
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.golden_cup.bb",
+                "color": "aqua"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:baked_potato"
+      },
+      {
+        "item": "minecraft:sugar"
+    },
+      {
+          "item": "minecraft:egg"
+      }
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components":{
+      "custom_model_data":70210,
+      "item_name":"[{'translate':'pir.cheesecake.bb','italic':false}]",
+      "minecraft:custom_data": {
+        "Tags": ["pir.cheesecake"]
+      }
+    }
+  }
+}

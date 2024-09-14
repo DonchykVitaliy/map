@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:item_frame"
+    },
+    "$": {
+      "item": "minecraft:leather"
+    },
+    "@": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "@$@",
+    "$#$",
+    "@$@"
+  ],
+  "result": {
+    "id": "minecraft:bee_spawn_egg",
+    "components":{
+      "custom_model_data":73006,
+      "item_name":"[{'translate':'pir.gun_frame.bb'}]",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_display",
+        "brightness": {"sky":20,"block":0},
+        "item": {"id":"minecraft:bee_spawn_egg","components":{"minecraft:custom_model_data":73006}},
+        "transformation": {"left_rotation":"[0f,0f,0f,1f]","right_rotation":"[0f,0f,0f,1f]","translation":"[0f,0f,-0.44f]","scale":"[1.001f,1.001f,1.001f]"},
+        "Tags":["pir.block","pir.setblock","pir.gun_frame.bb"]
+      }
+    }
+  }
+}

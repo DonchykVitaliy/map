@@ -1,0 +1,43 @@
+
+      {
+        "display": {
+          "icon": {
+            "id": "minecraft:iron_boots",
+            "components": {
+              "minecraft:custom_model_data": 71000
+            }
+          },
+          "title": {
+            "translate": "pir.adv.mermaid_boots.bb",
+            "bold": false
+          },
+          "description": {
+            "translate": "pir.adv.mermaid_boots1.bb",
+            "bold": false,
+            "italic": false
+          },
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": true,
+          "hidden": false
+        },
+        "parent": "pirates:pirates/harp",
+        "criteria": {
+          "vessel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_boots"
+                  ],
+                  "components": {
+                    "minecraft:custom_model_data": 71000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+      

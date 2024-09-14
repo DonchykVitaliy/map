@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 73006
+      }
+    },
+    "title": {
+      "translate": "pir.adv.vessel.bb",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.vessel1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "pirates:pirates/key",
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_star"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 73006
+            }
+          }
+        ]
+      }
+    }
+  }
+}

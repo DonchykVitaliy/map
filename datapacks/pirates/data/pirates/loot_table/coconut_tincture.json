@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 3,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:resistance",
+                        "amplifier": 0,
+                        "duration": 600
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.coconut_tincture.bb\",\"pir.selected_item\",\"pir.beverages\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 70003
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.coconut_tincture.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

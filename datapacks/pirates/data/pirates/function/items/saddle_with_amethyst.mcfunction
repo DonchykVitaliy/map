@@ -1,0 +1,3 @@
+execute if entity @s[type=horse,nbt={SaddleItem:{id:"minecraft:saddle",components:{"minecraft:custom_data":{Tags:["pir.saddle_with_amethyst.bb"]}}}},tag=!pir.effect_horse] run function pirates:items/saddle_with_amethyst_effect
+
+execute if entity @s[type=horse,nbt=!{SaddleItem:{id:"minecraft:saddle",components:{"minecraft:custom_data":{Tags:["pir.saddle_with_amethyst.bb"]}}}},tag=pir.effect_horse] run function pirates:items/saddle_with_amethyst_clear

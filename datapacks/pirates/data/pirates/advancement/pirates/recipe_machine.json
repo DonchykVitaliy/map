@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silverfish_spawn_egg",
+      "components": {
+        "minecraft:custom_model_data": 73018
+      }
+    },
+    "title": {
+      "translate": "pir.adv.recipe_machine.bb",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.recipe_machine1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pirates:pirates/turtle_soup",
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:silverfish_spawn_egg"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 73018
+            }
+          }
+        ]
+      }
+    }
+  }
+}
