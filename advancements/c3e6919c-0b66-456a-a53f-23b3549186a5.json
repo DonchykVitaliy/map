@@ -3254,5 +3254,59 @@
     },
     "done": true
   },
+  "pirates:pirates/key": {
+    "criteria": {
+      "explored_swamp": "2024-09-14 18:27:17 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/gold": {
+    "criteria": {
+      "vessel": "2024-09-14 18:27:18 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/vessel": {
+    "criteria": {
+      "vessel": "2024-09-14 18:27:25 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/turtle_scute": {
+    "criteria": {
+      "vessel": "2024-09-14 18:27:25 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/kelp": {
+    "criteria": {
+      "vessel": "2024-09-14 19:51:18 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/iron": {
+    "criteria": {
+      "vessel": "2024-09-14 19:51:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-09-14 20:10:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-09-14 20:10:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-09-14 20:10:52 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
