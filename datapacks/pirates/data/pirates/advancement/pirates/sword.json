@@ -2,9 +2,9 @@
       {
         "display": {
           "icon": {
-            "id": "minecraft:iron_helmet",
+            "id": "minecraft:iron_sword",
             "components": {
-              "minecraft:custom_model_data": 71001
+              "minecraft:custom_model_data": 74005
             }
           },
           "title": {

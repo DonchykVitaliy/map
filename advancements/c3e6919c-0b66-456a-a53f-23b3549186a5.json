@@ -3308,5 +3308,146 @@
     },
     "done": true
   },
+  "pirates:pirates/quest": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:20:25 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/mermaid": {
+    "criteria": {
+      "eat_mermaid": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/second_boss": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/all_tincture": {
+    "criteria": {
+      "berry": "2024-09-15 15:53:21 +0300",
+      "rum": "2024-09-15 15:53:21 +0300",
+      "pumpkin": "2024-09-15 15:53:21 +0300",
+      "beer": "2024-09-15 15:53:21 +0300",
+      "coconut": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/ride_turtle": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/turtle_soup": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/harp": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/pirates_of_the_caribbean": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/cannon": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/breawing_barrel": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/gold_horn": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/upgrade": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/sword": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/boss": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/pirate_sheap": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/mermaid_boots": {
+    "criteria": {
+      "vessel": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/adventure": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/bigsty": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/mermaid_trim": {
+    "criteria": {
+      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:dune_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:bolt_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:shaper_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:eye_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:coast_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:wayfinder_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:vex_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:flow_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:host_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
+      "armor_trimmed_minecraft:raiser_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/shell": {
+    "criteria": {
+      "explored_swamp": "2024-09-15 15:53:21 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
