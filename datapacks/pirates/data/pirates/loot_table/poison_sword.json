@@ -32,7 +32,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{Tags:[\"pir.poison_sword.bb\",\"pir.selected_item\"]}"
+              "tag": "{Tags:[\"pir.saber.bb\",\"pir.poison_sword.bb\",\"pir.selected_item\"]}"
             },
             {
               "function": "minecraft:set_lore",

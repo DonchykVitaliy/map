@@ -105,6 +105,7 @@ scoreboard objectives add pir.spawn_y.bb dummy
 scoreboard objectives add pir.spawn_z.bb dummy
 #poison_sword
 scoreboard objectives add pir.poison_sword.bb used:iron_sword
+scoreboard objectives add pir.poison_chans.bb dummy
 #heart
 scoreboard objectives add pir.heart.bb dummy
 #

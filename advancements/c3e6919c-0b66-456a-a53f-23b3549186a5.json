@@ -3449,5 +3449,53 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2024-09-16 20:44:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-09-16 20:53:58 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/leather": {
+    "criteria": {
+      "vessel": "2024-09-16 20:53:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-09-16 20:53:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-09-16 20:53:58 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/string": {
+    "criteria": {
+      "vessel": "2024-09-16 21:11:03 +0300"
+    },
+    "done": true
+  },
+  "pirates:recipes/cheese": {
+    "criteria": {
+      "vessel": "2024-09-16 21:16:32 +0300"
+    },
+    "done": true
+  },
+  "pirates:pirates/oar": {
+    "criteria": {
+      "explored_swamp": "2024-09-17 18:03:55 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
