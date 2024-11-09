@@ -9,13 +9,14 @@
     "criteria": {
       "minecraft:badlands": "2024-08-07 11:29:20 +0300",
       "minecraft:beach": "2024-07-05 12:44:03 +0300",
-      "minecraft:desert": "2024-08-07 11:28:21 +0300",
       "minecraft:forest": "2024-07-05 15:23:04 +0300",
       "minecraft:sparse_jungle": "2024-07-03 20:28:41 +0300",
-      "minecraft:jungle": "2024-07-25 15:09:30 +0300",
       "minecraft:lukewarm_ocean": "2024-07-05 12:44:02 +0300",
       "minecraft:river": "2024-07-05 15:23:20 +0300",
       "minecraft:lush_caves": "2024-08-07 11:45:24 +0300",
+      "minecraft:desert": "2024-08-07 11:28:21 +0300",
+      "minecraft:jungle": "2024-07-25 15:09:30 +0300",
+      "minecraft:ocean": "2024-10-11 22:59:57 +0300",
       "minecraft:wooded_badlands": "2024-08-07 11:38:21 +0300",
       "minecraft:plains": "2024-07-04 12:44:42 +0300",
       "minecraft:warm_ocean": "2024-07-16 11:16:06 +0300"
@@ -3503,5 +3504,5 @@
     },
     "done": true
   },
-  "DataVersion": 3955
+  "DataVersion": 4075
 }
