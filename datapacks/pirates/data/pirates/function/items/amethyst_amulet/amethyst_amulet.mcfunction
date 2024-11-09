@@ -1,1 +1,0 @@
-execute if entity @s[tag=!pir.amethyst_amulet] run function pirates:items/amethyst_amulet/amethyst_amulet_effect

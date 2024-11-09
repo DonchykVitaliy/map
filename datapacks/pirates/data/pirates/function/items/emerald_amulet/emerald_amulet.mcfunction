@@ -1,1 +1,0 @@
-execute if score @s pir.player_health.bb matches ..3 run function pirates:items/emerald_amulet/emerald_amulet_effect

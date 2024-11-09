@@ -1,1 +1,0 @@
-playsound entity.player.attack.strong player @a[distance=..6] ~ ~ ~

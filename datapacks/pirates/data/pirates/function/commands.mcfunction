@@ -1,1 +1,0 @@
-tellraw @s {"text":"/function pirates:give/all_blocks\n/function pirates:give/all_items\n/function pirates:give/all_mobs\n/locate structure pirates:[name_structure]"}

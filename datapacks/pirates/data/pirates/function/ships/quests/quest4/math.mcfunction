@@ -1,1 +1,0 @@
-execute if score @s pir.quest_cheese matches 20.. run function pirates:ships/quests/quest4/complete

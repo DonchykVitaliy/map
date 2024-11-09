@@ -1,7 +1,0 @@
-{
-  "asset_id": "minecraft:mermaid",
-  "description": {
-    "translate": "trim_pattern.minecraft.coast"
-  },
-  "template_item": "minecraft:command_block"
-}

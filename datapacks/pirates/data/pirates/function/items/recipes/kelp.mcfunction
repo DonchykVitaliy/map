@@ -1,1 +1,0 @@
-recipe give @s pirates:kelp_on_a_stick

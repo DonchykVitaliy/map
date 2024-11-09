@@ -1,1 +1,0 @@
-item replace entity @p armor.head with firework_star[minecraft:custom_model_data=73008,minecraft:custom_data={Tags:["pir.bell_hat.bb","pir.selected_item"]},minecraft:item_name='{"translate":"pir.bell_hat.bb","color":"yellow"}',minecraft:attribute_modifiers=[{"id": "bell_hat","type": "minecraft:generic.armor","amount": 2,"operation": "add_value","slot": "head"}]]

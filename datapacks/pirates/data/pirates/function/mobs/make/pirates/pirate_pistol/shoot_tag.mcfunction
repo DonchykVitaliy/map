@@ -1,1 +1,0 @@
-tag @s add pir.shoot_pirate
