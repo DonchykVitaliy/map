@@ -39,6 +39,9 @@ execute if entity @s[tag=pir.skeleton_3.mob] run function pirates:mobs/skeleton_
 execute if entity @s[tag=pir.drowned_1.mob] run function pirates:mobs/drowned_1
 #drowned_2
 execute if entity @s[tag=pir.drowned_2.mob] run function pirates:mobs/drowned_2
+#davy
+execute if entity @s[tag=pir.davy_jones.mob] run function pirates:mobs/davy_jones
+
 
 ###spawn_egg
 execute if entity @s[tag=pir.spawn_egg] run function pirates:mobs/spawn/spawn_egg/main

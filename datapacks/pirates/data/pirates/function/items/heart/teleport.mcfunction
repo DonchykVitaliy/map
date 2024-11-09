@@ -1,7 +1,7 @@
 tag @s remove pir.heart.bb
 attribute @s minecraft:generic.scale base set 1
 
-bossbar add pir.davy_jones_health.bb {"color":"#54ffaf","translate":"pir.mob_ocean.davy_jones"}
+bossbar add pir.davy_jones_health.bb {"translate":"pir.mob_ocean.davy_jones"}
 bossbar set minecraft:pir.davy_jones_health.bb players @a[distance=..50]
 bossbar set minecraft:pir.davy_jones_health.bb max 220
 bossbar set minecraft:pir.davy_jones_health.bb style notched_12

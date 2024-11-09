@@ -62,6 +62,7 @@ scoreboard objectives add pir.quest_alcohol dummy
 #mobs
 scoreboard objectives add pir.death_time dummy
 scoreboard objectives add pir.attack_time dummy
+scoreboard objectives add pir.attack_time_2 dummy
 scoreboard objectives add pir.mob_score dummy
 scoreboard objectives add pir.mob_random dummy
 scoreboard objectives add pir.mob_moment dummy
