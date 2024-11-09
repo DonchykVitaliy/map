@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:items/recipes/string"
+  }
+}

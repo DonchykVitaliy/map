@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{Tags:[\"pir.update\",\"pir.up1\",\"pir.selected_item\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:mobs/villagers/trade_up2"
+  }
+}

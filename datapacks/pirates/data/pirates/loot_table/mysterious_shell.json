@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [     
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.shell.bb\"]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pir.shell_lore.bb",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 73009
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.shell.bb",
+                "color": "light_purple"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

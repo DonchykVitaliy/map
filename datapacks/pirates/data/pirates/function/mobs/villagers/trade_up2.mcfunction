@@ -1,0 +1,4 @@
+execute as @e[type=villager,tag=pir.cap_tr.bb,tag=!pir.up2] at @s run data merge entity @s {Offers:{Recipes:[{rewardExp:0b,maxUses:0,buy:{id:"minecraft:gold_ingot",count:8b},sell:{id:"minecraft:firework_star",Count:1b,components:{custom_model_data:70200,custom_data:{Tags:["pir.update","pir.up1","pir.selected_item"]},item_name:'{"translate":"pir.update1.bb","italic":false}'}}},{rewardExp:0b,maxUses:1,buy:{id:"minecraft:gold_ingot",count:12b},sell:{id:"minecraft:firework_star",Count:1b,components:{custom_model_data:70200,custom_data:{Tags:["pir.update","pir.up2","pir.selected_item"]},item_name:'{"translate":"pir.update2.bb","italic":false}'}}}]}}
+execute as @e[type=villager,tag=pir.cap_tr.bb,tag=!pir.up2] at @s run tag @s add pir.up2
+
+advancement revoke @s only pirates:work/trade_up1

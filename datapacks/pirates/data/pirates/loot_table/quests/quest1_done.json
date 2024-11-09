@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.quest.bb\",\"pir.quest_ore_d\",\"pir.selected_item\"]}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 75001
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.quest.book_item_d.bb"
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "translate": "pir.quest.book_title_d.bb",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "extra": [
+                        {
+                          "translate": "pir.quest.gold_ores_d.bb",
+                          "color": "black",
+                          "bold": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "functions": [
+                {
+                  "function": "minecraft:exploration_map",
+                  "destination": "pirates:islands",
+                  "decoration": "target_point",
+                  "zoom": 1,
+                  "skip_existing_chunks": false
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "filled_map.buried_treasure"
+                  }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "minecraft:on_treasure_maps",
+                "decoration": "red_x",
+                "zoom": 1,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.buried_treasure"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

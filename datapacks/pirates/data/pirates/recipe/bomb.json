@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "$": {
+      "item": "minecraft:gunpowder"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " # ",
+    "@$@",
+    " @ "
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components":{
+      "custom_model_data":73002,
+      "item_name":"[{'translate':'pir.bomb.bb','italic':false}]",
+      "minecraft:custom_data": {
+        "Tags": ["pir.bomb.bb","pir.rcm_stick.bb"]
+      }
+    }
+  }
+}

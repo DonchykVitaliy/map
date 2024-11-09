@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "#L"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "id": "minecraft:iron_helmet",
+        "components":{
+          "custom_model_data":71000,
+          "minecraft:custom_data": {
+            "Tags": ["pir.eye_path.bb","pir.selected_item"]
+          },
+          "item_name":"[{'translate':'pir.eye_path.bb'}]",
+          "minecraft:attribute_modifiers": {
+            "modifiers": [
+              {
+                "id": "generic.armor",
+                "type": "minecraft:generic.armor",
+                "amount": 0,
+                "operation": "add_value",
+                "slot": "head"
+              }
+            ],
+            "show_in_tooltip": false
+          },
+          "minecraft:hide_additional_tooltip": {}
+        }
+      }
+    }

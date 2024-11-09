@@ -1,0 +1,1 @@
+recipe give @s pirates:dagger

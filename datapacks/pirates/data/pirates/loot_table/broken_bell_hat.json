@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "bell_hat",
+                      "type": "minecraft:generic.armor",
+                      "amount": 0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.broken_bell_hat.bb\",\"pir.bell_hat.bb\",\"pir.selected_item\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 71006
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.broken_bell_hat.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

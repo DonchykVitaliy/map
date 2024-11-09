@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.pistol.bb","pir.selected_item","pir.iron_pistol"]},!minecraft:charged_projectiles=[{ id: "minecraft:arrow"}]] run item modify entity @s weapon.mainhand pirates:pistol/block_iron_pistol
+execute if items entity @s weapon.offhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.pistol.bb","pir.selected_item","pir.iron_pistol"]},!minecraft:charged_projectiles=[{ id: "minecraft:arrow"}]] run item modify entity @s weapon.offhand pirates:pistol/block_iron_pistol

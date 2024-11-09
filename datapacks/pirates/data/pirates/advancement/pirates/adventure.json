@@ -1,0 +1,32 @@
+
+    {
+      "display": {
+        "icon": {
+          "id": "minecraft:iron_helmet",
+          "components": {
+            "minecraft:custom_model_data": 71000
+          }
+        },
+        "title": {
+          "translate": "pir.adv.adventure_time.bb",
+          "bold": false
+        },
+        "description": {
+          "translate": "pir.adv.adventure_time1.bb",
+          "bold": false,
+          "italic": false
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+      },
+      "parent": "pirates:pirates/pirates_of_the_caribbean",
+      "criteria": {
+        "explored_swamp": {
+          "trigger": "minecraft:impossible",
+          "conditions": {}
+        }
+      }
+    }
+    

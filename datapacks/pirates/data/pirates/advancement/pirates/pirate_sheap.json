@@ -1,0 +1,32 @@
+
+      {
+        "display": {
+          "icon": {
+            "id": "minecraft:silverfish_spawn_egg",
+            "components": {
+              "minecraft:custom_model_data": 73001
+            }
+          },
+          "title": {
+            "translate": "pir.adv.pirate_sheap.bb",
+            "bold": false
+          },
+          "description": {
+            "translate": "pir.adv.pirate_sheap1.bb",
+            "bold": false,
+            "italic": false
+          },
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": true,
+          "hidden": false
+        },
+        "parent": "pirates:pirates/root",
+        "criteria": {
+          "explored_swamp": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+          }
+        }
+      }
+      

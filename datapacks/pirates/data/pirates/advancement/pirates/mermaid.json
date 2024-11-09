@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 73014
+      }
+    },
+    "title": {
+      "translate": "pir.adv.mermaid.bb",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.mermaid1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pirates:pirates/root",
+  "criteria": {
+    "eat_mermaid": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 73014
+          }
+        }
+      }
+    }
+  }
+}

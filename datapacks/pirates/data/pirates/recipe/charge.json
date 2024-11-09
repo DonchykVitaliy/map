@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:gunpowder"
+      },
+      {
+          "item": "minecraft:iron_nugget"
+      },
+      {
+          "item": "minecraft:iron_nugget"
+      }
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "components":{
+      "custom_model_data":73003,
+      "minecraft:max_stack_size": 16,
+      "item_name":"[{'translate':'pir.weapons_charge.bb','italic':false}]"
+    }
+  }
+}

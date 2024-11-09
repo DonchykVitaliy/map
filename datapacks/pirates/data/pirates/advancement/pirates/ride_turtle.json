@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 73008
+      }
+    },
+    "title": {
+      "translate": "pir.adv.ride_turtle.bb",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.ride_turtle1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pirates:pirates/root",
+  "criteria": {
+    "explored_swamp": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

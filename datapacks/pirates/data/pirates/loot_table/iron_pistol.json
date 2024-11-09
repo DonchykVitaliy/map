@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 280
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.pistol.bb\",\"pir.selected_item\",\"pir.iron_pistol\",\"pir.empty\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 75013
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.pistol.bb"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pir.air_pistol",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:charged_projectiles": [
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

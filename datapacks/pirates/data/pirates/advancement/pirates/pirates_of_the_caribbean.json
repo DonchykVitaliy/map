@@ -1,0 +1,29 @@
+
+      {
+        "display": {
+          "icon": {
+            "id": "minecraft:lead"
+          },
+          "title": {
+            "translate": "pir.adv.pirates_of_the_caribbean.bb",
+            "bold": false
+          },
+          "description": {
+            "translate": "pir.adv.pirates_of_the_caribbean1.bb",
+            "bold": false,
+            "italic": false
+          },
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": true,
+          "hidden": false
+        },
+        "parent": "pirates:pirates/ride_turtle",
+        "criteria": {
+          "explored_swamp": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+          }
+        }
+      }
+      

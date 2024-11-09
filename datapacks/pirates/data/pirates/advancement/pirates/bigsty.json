@@ -1,0 +1,32 @@
+
+    {
+      "display": {
+        "icon": {
+          "id": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 75008
+          }
+        },
+        "title": {
+          "translate": "BigSTy?",
+          "bold": false
+        },
+        "description": {
+          "translate": "pir.adv.bigsty.bb",
+          "bold": false,
+          "italic": false
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+      },
+      "parent": "pirates:pirates/root",
+      "criteria": {
+        "explored_swamp": {
+          "trigger": "minecraft:impossible",
+          "conditions": {}
+        }
+      }
+    }
+    

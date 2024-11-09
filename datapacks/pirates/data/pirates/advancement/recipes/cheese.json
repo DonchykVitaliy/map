@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "vessel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:baked_potato",
+            "components": {
+              "minecraft:custom_model_data": 70201
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:items/recipes/egg"
+  }
+}

@@ -1,0 +1,10 @@
+#execute unless entity @s[nbt={SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{Tags:["pir.rifle.bb"],ChargedProjectiles:[{id:"minecraft:arrow",Count:1b},{},{}],Charged:1b}}}] if entity @s[nbt=!{SelectedItem:{id:"minecraft:crossbow",tag:{Tags:["pir.enchanted_speed"]}}}] if score @s pir.rifle.bb matches ..0 if entity @s[nbt={Inventory:[{id:"minecraft:firework_star",tag:{CustomModelData:73003}}]}] run scoreboard players set @s pir.rifle.bb 80
+#execute unless entity @s[nbt={SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{Tags:["pir.rifle.bb","pir.empty"]}}}}] if entity @s[nbt={SelectedItem:{id:"minecraft:crossbow",tag:{Tags:["pir.enchanted_speed"]}}}] if score @s pir.rifle.bb matches ..0 if entity @s[nbt={Inventory:[{id:"minecraft:firework_star",tag:{CustomModelData:73003}}]}] run scoreboard players set @s pir.rifle.bb 50
+#execute if score @s[nbt=!{SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{Tags:["pir.enchanted_speed"]}}}}] pir.rifle.bb matches 1.. run function pirates:items/rifle/load
+#execute if score @s[nbt={SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{Tags:["pir.enchanted_speed"]}}}}] pir.rifle.bb matches 1.. run function pirates:items/rifle/load_with_enchant
+
+
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.rifle.bb","pir.selected_item","pir.empty"]}] if score @s pir.rifle.bb matches ..0 if items entity @s container.* minecraft:firework_star[minecraft:custom_model_data=73003] run scoreboard players set @s pir.rifle.bb 80
+execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_data={Tags:["pir.enchanted_speed","pir.rifle.bb","pir.selected_item","pir.empty"]}] if score @s pir.rifle.bb matches ..0 if items entity @s container.* minecraft:firework_star[minecraft:custom_model_data=73003] run scoreboard players set @s pir.rifle.bb 50
+execute if score @s pir.rifle.bb matches 1.. run function pirates:items/rifle/load
+

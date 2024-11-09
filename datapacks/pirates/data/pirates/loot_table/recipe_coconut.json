@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "pir.recipe_item_lore.bb",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.recipe_coconut_item_lore.bb",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "translate": "pir.recipe_coconut_item_lore1.bb",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 73013
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.recipe_coconut.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

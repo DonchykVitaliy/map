@@ -1,0 +1,32 @@
+
+      {
+        "display": {
+          "icon": {
+            "id": "minecraft:goat_horn",
+            "components": {
+              "minecraft:custom_model_data": 76000
+            }
+          },
+          "title": {
+            "translate": "pir.adv.gold_horn.bb",
+            "bold": false
+          },
+          "description": {
+            "translate": "pir.adv.gold_horn1.bb",
+            "bold": false,
+            "italic": false
+          },
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": true,
+          "hidden": false
+        },
+        "parent": "pirates:pirates/cannon",
+        "criteria": {
+          "explored_swamp": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+          }
+        }
+      }
+      

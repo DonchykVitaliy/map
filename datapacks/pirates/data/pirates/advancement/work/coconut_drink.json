@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 70006
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pirates:items/glass_bottle"
+  }
+}

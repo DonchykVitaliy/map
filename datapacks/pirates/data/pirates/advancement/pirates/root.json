@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 75006
+      }
+    },
+    "title": {
+      "translate": "pir.adv.root.bb",
+      "color": "#800000",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.root1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "background": "minecraft:textures/adv_pirates.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "dowm_dp": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "pirates:setup"
+  }
+}

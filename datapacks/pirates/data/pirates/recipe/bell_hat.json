@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_helmet"
+    },
+    "@": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " @ ",
+    "@#@",
+    " @ "
+  ],
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "components":{
+      "custom_model_data":71002,
+      "item_name":"[{'translate':'pir.bell_hat.bb'}]",
+      "minecraft:custom_data": {
+        "Tags": ["pir.bell_hat.bb","pir.selected_item"]
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "bell_hat",
+            "type": "minecraft:generic.armor",
+            "amount": 0,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:hide_additional_tooltip": {}
+    }
+  }
+}

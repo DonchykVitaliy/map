@@ -1,0 +1,12 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run tp ~ ~ ~
+execute if entity @s[tag=sp.south.rot] run data merge entity @s {Rotation:[0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,-0.44f],scale:[1f,1f,1f]}}
+execute if entity @s[tag=sp.east.rot] run data merge entity @s {Rotation:[270f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,-0.44f],scale:[1f,1f,1f]}}
+execute if entity @s[tag=sp.west.rot] run data merge entity @s {Rotation:[90f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,-0.44f],scale:[1f,1f,1f]}}
+execute if entity @s[tag=sp.north.rot] run data merge entity @s {Rotation:[180f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,-0.44f],scale:[1f,1f,1f]}}
+execute if entity @s[tag=sp.south.rot] run summon item_display ~ ~ ~ {Rotation:[0f],Tags:["pir.ditem_frame.bb"],item_display:"head",transformation:{left_rotation:[0f,0f,0.41f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,-0.42f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:air",Count:1b}}
+execute if entity @s[tag=sp.east.rot] run summon item_display ~ ~ ~ {Rotation:[270f],Tags:["pir.ditem_frame.bb"],item_display:"head",transformation:{left_rotation:[0f,0f,0.41f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,-0.42f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:air",Count:1b}}
+execute if entity @s[tag=sp.west.rot] run summon item_display ~ ~ ~ {Rotation:[90f],Tags:["pir.ditem_frame.bb"],item_display:"head",transformation:{left_rotation:[0f,0f,0.41f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,-0.42f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:air",Count:1b}}
+execute if entity @s[tag=sp.north.rot] run summon item_display ~ ~ ~ {Rotation:[180f],Tags:["pir.ditem_frame.bb"],item_display:"head",transformation:{left_rotation:[0f,0f,0.41f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,-0.42f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:air",Count:1b}}
+playsound minecraft:entity.item_frame.place block @a[distance=..10] ~ ~ ~ 0.8 0.5
+summon interaction ~ ~ ~ {Tags:["pir.gun_frame.bb","pir.block"],width:1f,height:1f}
+tag @s remove pir.setblock

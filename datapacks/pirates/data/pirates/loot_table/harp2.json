@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.harp.bb\",\"pir.rcm_stick.bb\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 73012
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 128
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.harp.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pir.update\",\"pir.up1\",\"pir.selected_item\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 70200
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "pir.update1.bb"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

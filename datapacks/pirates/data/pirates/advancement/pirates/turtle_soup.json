@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:custom_model_data": 77000
+      }
+    },
+    "title": {
+      "translate": "pir.adv.turtle_soup.bb",
+      "bold": false
+    },
+    "description": {
+      "translate": "pir.adv.turtle_soup1.bb",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pirates:pirates/root",
+  "criteria": {
+    "explored_swamp": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}
