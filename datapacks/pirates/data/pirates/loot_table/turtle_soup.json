@@ -12,11 +12,11 @@
               "components": {
                 "minecraft:food": {
                   "nutrition": 11,
-                  "saturation": 11,
-                  "eat_seconds": 2,
-                  "using_converts_to": {
-                    "id": "minecraft:turtle_scute"
-                  }
+                  "saturation": 11
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:turtle_scute",
+                  "count": 1
                 }
               }
             },

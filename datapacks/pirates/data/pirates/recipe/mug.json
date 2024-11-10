@@ -1,24 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-      "   ",
-      "# #",
-      "I#I"
+    "   ",
+    "# #",
+    "I#I"
   ],
   "key": {
-      "#": {
-          "tag": "minecraft:planks"
-      },
-      "I": {
-          "item": "minecraft:iron_nugget"
-      }
+    "I": "minecraft:iron_nugget",
+    "#": "#minecraft:planks"
   },
   "result": {
     "id": "minecraft:firework_star",
-    "components":{
-      "custom_model_data":73005,
+    "components": {
+      "custom_model_data": 73005,
       "minecraft:max_stack_size": 16,
-      "item_name":"[{'translate':'pir.mug.bb','italic':false}]"
+      "item_name": "[{'translate':'pir.mug.bb','italic':false}]"
     }
   }
 }

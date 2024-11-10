@@ -2,16 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:item_frame"
+    "@": "minecraft:gold_nugget",
+    "$": "minecraft:leather",
+    "#": "minecraft:item_frame"
     },
-    "$": {
-      "item": "minecraft:leather"
-    },
-    "@": {
-      "item": "minecraft:gold_nugget"
-    }
-  },
   "pattern": [
     "@$@",
     "$#$",

@@ -10,11 +10,20 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "camera_overlay": "item/hats/bell_over_1"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
                       "id": "bell_hat",
-                      "type": "minecraft:generic.armor",
+                      "type": "minecraft:armor",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "head"

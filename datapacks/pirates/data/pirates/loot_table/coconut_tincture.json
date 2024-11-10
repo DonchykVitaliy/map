@@ -12,14 +12,22 @@
               "components": {
                 "minecraft:food": {
                   "nutrition": 6,
-                  "saturation": 3,
-                  "effects": [
+                  "saturation": 3
+                },
+                "minecraft:consumable": {
+                  "animation": "drink",
+                  "sound": "item.honey_bottle.drink",
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
                     {
-                      "effect": {
-                        "id": "minecraft:resistance",
-                        "amplifier": 0,
-                        "duration": 600
-                      }
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:resistance",
+                          "amplifier": 0,
+                          "duration": 600
+                        }
+                      ]
                     }
                   ]
                 }

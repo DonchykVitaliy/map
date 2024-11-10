@@ -2,13 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:gunpowder"
+    "$": "minecraft:iron_ingot",
+    "#": "minecraft:gunpowder"
     },
-    "$": {
-      "item": "minecraft:iron_ingot"
-    }
-  },
   "pattern": [
     " $ ",
     "$#$",

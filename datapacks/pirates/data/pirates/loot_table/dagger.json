@@ -13,19 +13,19 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "type": "minecraft:player.entity_interaction_range",
+                      "type": "minecraft:entity_interaction_range",
                       "id": "dist",
                       "amount": -0.3,
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "id": "damage",
                       "amount": 4,
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "id": "speed",
                       "amount": 0.5,
                       "operation": "add_value"

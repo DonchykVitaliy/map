@@ -10,11 +10,19 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "minecraft:equippable": {
+                    "slot": "head"
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
                   "minecraft:attribute_modifiers": {
                     "modifiers": [
                       {
                         "id": "pirate_cap",
-                        "type": "minecraft:generic.armor",
+                        "type": "minecraft:armor",
                         "amount": 0,
                         "operation": "add_value",
                         "slot": "head"

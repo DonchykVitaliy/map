@@ -13,19 +13,19 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "type": "minecraft:player.entity_interaction_range",
+                      "type": "minecraft:entity_interaction_range",
                       "id": "sword",
                       "amount": -0.3,
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "id": "sword",
                       "amount": 1,
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "id": "sword",
                       "amount": 0.2,
                       "operation": "add_value"

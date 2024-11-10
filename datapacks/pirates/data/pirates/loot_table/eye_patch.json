@@ -5,24 +5,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:firework_star",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "id": "eye_path",
-                      "type": "minecraft:generic.armor",
-                      "amount": 0,
-                      "operation": "add_value",
-                      "slot": "head"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                },
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:equippable": {
+                  "slot": "head"
+                }
               }
             },
             {
@@ -31,7 +21,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 71000
+              "value": 73000
             },
             {
               "function": "minecraft:set_name",

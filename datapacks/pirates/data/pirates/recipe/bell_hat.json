@@ -2,13 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:iron_helmet"
+    "@": "minecraft:gold_ingot",
+    "#": "minecraft:iron_helmet"
     },
-    "@": {
-      "item": "minecraft:gold_ingot"
-    }
-  },
   "pattern": [
     " @ ",
     "@#@",
@@ -26,7 +22,7 @@
         "modifiers": [
           {
             "id": "bell_hat",
-            "type": "minecraft:generic.armor",
+            "type": "minecraft:armor",
             "amount": 0,
             "operation": "add_value",
             "slot": "head"

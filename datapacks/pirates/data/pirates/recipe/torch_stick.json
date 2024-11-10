@@ -5,12 +5,8 @@
         "B"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:torch"
-        },
-        "B": {
-            "item": "minecraft:bamboo"
-        }
+    "B": "minecraft:bamboo",
+    "#": "minecraft:torch"
     },
     "result": {
         "id": "minecraft:silverfish_spawn_egg",

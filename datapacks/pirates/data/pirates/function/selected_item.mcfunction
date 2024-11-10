@@ -6,17 +6,17 @@
 
 ###item
 #eye path
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.eye_path.bb"]}}}]}] run function pirates:items/hat/eye_path
+#execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.eye_path.bb"]}}}]}] run function pirates:items/hat/eye_path
 #pirate cap
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.pirate_cap.bb"]}}}]}] run function pirates:items/hat/pirate_cap
+#execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.pirate_cap.bb"]}}}]}] run function pirates:items/hat/pirate_cap
 #bell hat
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.bell_hat.bb"]}}}]}] run function pirates:items/hat/bell_hat
+#execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.bell_hat.bb"]}}}]}] run function pirates:items/hat/bell_hat
 #red headband
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.red_headband.bb"]}}}]}] run function pirates:items/hat/red_headband
+#execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.red_headband.bb"]}}}]}] run function pirates:items/hat/red_headband
 #black headband
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.black_headband.bb"]}}}]}] run function pirates:items/hat/black_headband
+#execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.black_headband.bb"]}}}]}] run function pirates:items/hat/black_headband
 #white headband
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.white_headband.bb"]}}}]}] run function pirates:items/hat/white_headband
+#execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.white_headband.bb"]}}}]}] run function pirates:items/hat/white_headband
 #rifle
 execute if entity @s[nbt={Inventory:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{Tags:["pir.rifle.bb"]}}}]}] run function pirates:items/rifle/main
 #pistol

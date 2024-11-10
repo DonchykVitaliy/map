@@ -4,7 +4,7 @@ particle minecraft:campfire_cosy_smoke ^ ^1.4 ^1 0.4 0.3 0.4 0.02 10 normal
 
 execute as @e[type=arrow,distance=..2.5,nbt={inGround:0b},tag=!pir.arrow_pirate] run tag @s add pir.arrow_pirate
 execute as @e[type=arrow,tag=!pir.arrow_pistol.bb,tag=pir.arrow_pirate] run tag @s add pir.custom_mobs
-execute as @e[type=arrow,tag=pir.arrow_pirate,tag=!pir.arrow_pistol.bb] run data modify entity @s damage set value 4
+execute as @e[type=arrow,tag=pir.arrow_pirate,tag=!pir.arrow_pistol.bb] run data modify entity @s damage set value 7
 execute as @e[type=arrow,tag=pir.arrow_pirate,tag=!pir.arrow_pistol.bb] run tag @s add pir.arrow_pistol.bb
 
 data modify entity @e[type=item_display,sort=nearest,limit=1,tag=pir.drowned_1.mob,tag=!pir.attack_animation] item.components.minecraft:custom_model_data set value 79343
