@@ -45,3 +45,5 @@ execute if entity @s[tag=pir.ship_in_a_bottle.bb] run function pirates:blocks/de
 execute if entity @s[tag=pir.golden_scull.bb] run function pirates:blocks/destroy/items/golden_scull
 #golden_scull
 execute if entity @s[tag=pir.shell.bb] run function pirates:blocks/destroy/shell
+#golden_scull
+execute if entity @s[tag=pir.cheesecake.bb] run function pirates:blocks/destroy/not_place/cheesecake

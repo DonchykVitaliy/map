@@ -62,3 +62,5 @@ execute if entity @s[tag=pir.golden_scull.bb,tag=!pir.rotation_done] run functio
 execute if entity @s[tag=pir.golden_scull.bb,tag=pir.rotation_done] run function pirates:blocks/place/golden_scull
 #shell
 execute if entity @s[tag=pir.shell.bb] run function pirates:blocks/place/shell
+#cheesecake
+execute if entity @s[tag=pir.cheesecake.bb] run function pirates:blocks/place/cheesecake

@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "head",
+        "camera_overlay": "item/hats/bell_over_2"
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "name": {
+      "translate": "pir.broken_bell_hat.bb"
+    }
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 71006
+  }
+]

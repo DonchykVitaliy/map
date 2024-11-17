@@ -19,8 +19,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:repairable": {
+                  "items": "minecraft:gold_ingot"
+                },
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
+                    {
+                      "id": "water",
+                      "type": "minecraft:oxygen_bonus",
+                      "amount": 100,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
                     {
                       "id": "bell_hat",
                       "type": "minecraft:armor",

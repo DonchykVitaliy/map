@@ -3,6 +3,8 @@
 ###pirates
 #with_pistol
 execute if entity @s[tag=pir.pirate_pistol.mob] run function pirates:mobs/pirate_pistol
+#with_riffle
+execute if entity @s[tag=pir.pirate_riffle.mob] run function pirates:mobs/pirate_riffle
 #with_saber
 execute if entity @s[tag=pir.pirate_saber.mob] run function pirates:mobs/pirate_saber
 #with_bomb

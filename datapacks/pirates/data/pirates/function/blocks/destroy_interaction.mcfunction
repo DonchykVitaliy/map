@@ -40,4 +40,7 @@ execute if entity @s[tag=pir.broken_lantern.bb] run function pirates:blocks/dest
 execute if entity @s[tag=pir.ship_in_a_bottle.bb] run function pirates:blocks/destroy/ship_in_a_bottle
 #shell
 execute if entity @s[tag=pir.shell.bb] run function pirates:blocks/destroy/shell
+#cheesecake
+execute if entity @s[tag=pir.cheesecake.bb,tag=!pir.3parts] run function pirates:blocks/destroy/items/cheesecake
+execute if entity @s[tag=pir.cheesecake.bb,tag=pir.3parts] run function pirates:blocks/destroy/cheesecake
 

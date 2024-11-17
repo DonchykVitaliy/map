@@ -3285,12 +3285,6 @@
     },
     "done": true
   },
-  "pirates:pirates/mermaid": {
-    "criteria": {
-      "eat_mermaid": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
   "pirates:pirates/second_boss": {
     "criteria": {
       "explored_swamp": "2024-09-15 15:53:21 +0300"
@@ -3519,6 +3513,30 @@
   "pirates:recipes/gold": {
     "criteria": {
       "vessel": "2024-11-10 18:18:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lime_bundle": {
+    "criteria": {
+      "has_lime_dye": "2024-11-12 16:05:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2024-11-12 16:05:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2024-11-12 16:05:30 +0200"
+    },
+    "done": true
+  },
+  "pirates:pirates/mermaid": {
+    "criteria": {
+      "eat_mermaid": "2024-11-12 16:49:59 +0200"
     },
     "done": true
   },

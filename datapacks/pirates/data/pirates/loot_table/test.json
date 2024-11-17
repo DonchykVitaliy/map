@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repairable": {
+                  "items": "minecraft:gold_ingot"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

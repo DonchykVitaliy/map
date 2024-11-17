@@ -10,6 +10,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 8
+                },
                 "minecraft:consumable": {
                   "consume_seconds": 1.5
                 }

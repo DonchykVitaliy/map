@@ -12,3 +12,5 @@ execute if entity @s[tag=pir.candle.bb] run function pirates:blocks/destroy/cand
 execute if entity @s[tag=pir.ship_in_a_bottle.bb] run function pirates:blocks/destroy/ship_in_a_bottle
 #shell
 execute if entity @s[tag=pir.shell.bb] run function pirates:blocks/destroy/shell
+#cheesecake
+execute if entity @s[tag=pir.cheesecake.bb] run function pirates:blocks/destroy/cheesecake

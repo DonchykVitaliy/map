@@ -1,5 +1,4 @@
 clear @s[gamemode=!creative] glass_bottle 1
-effect clear @s
 playsound minecraft:ui.toast.out player @s ~ ~ ~ 1.5 1.4
 advancement grant @s only pirates:pirates/cup
 

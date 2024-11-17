@@ -10,6 +10,9 @@ execute if entity @s[tag=pir.with_hook.bb] run function pirates:mobs/spawn/spawn
 #pistol
 execute if entity @s[tag=pir.with_pistol.bb] run function pirates:mobs/spawn/spawn_egg/with_pistol
 
+#rifle
+execute if entity @s[tag=pir.with_rifle.bb] run function pirates:mobs/spawn/spawn_egg/with_rifle
+
 #pirate 1
 execute if entity @s[tag=pir.pirate_1.bb] run function pirates:mobs/spawn/spawn_egg/pirate_1
 

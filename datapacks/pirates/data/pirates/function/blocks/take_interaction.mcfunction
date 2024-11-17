@@ -26,3 +26,6 @@ execute if entity @s[tag=pir.candle.bb] run function pirates:blocks/work/candle/
 
 #pirate_chest
 execute if entity @s[tag=pir.pirate_chest.bb] run function pirates:blocks/work/pirate_chest/main
+
+#cheesecake
+execute if entity @s[tag=pir.cheesecake.bb] run function pirates:blocks/work/cheesecake/main

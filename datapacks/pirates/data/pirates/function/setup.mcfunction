@@ -99,7 +99,6 @@ scoreboard objectives add pir.smoke_time.bb dummy
 scoreboard objectives add pir.harp.bb dummy
 #bell
 scoreboard objectives add pir.score_bell.bb dummy
-scoreboard objectives add pir.bell_random.bb dummy
 #potion
 scoreboard objectives add pir.spawn_x.bb dummy
 scoreboard objectives add pir.spawn_y.bb dummy
