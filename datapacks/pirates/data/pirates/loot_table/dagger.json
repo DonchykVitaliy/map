@@ -13,27 +13,30 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "type": "minecraft:entity_interaction_range",
                       "id": "dist",
+                      "type": "minecraft:entity_interaction_range",
                       "amount": -0.3,
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "type": "minecraft:attack_damage",
                       "id": "damage",
+                      "type": "minecraft:attack_damage",
                       "amount": 4,
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "type": "minecraft:attack_speed",
                       "id": "speed",
+                      "type": "minecraft:attack_speed",
                       "amount": 0.5,
                       "operation": "add_value"
                     }
                   ],
                   "show_in_tooltip": false
                 },
-                "minecraft:max_damage": 320
+                "minecraft:max_damage": 320,
+                "minecraft:repairable": {
+                  "items": "minecraft:turtle_scute"
+                }
               }
             },
             {

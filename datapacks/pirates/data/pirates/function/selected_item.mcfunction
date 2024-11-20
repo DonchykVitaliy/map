@@ -7,7 +7,7 @@
 ###item
 #bell hat
 execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{Tags:["pir.bell_hat.bb"]},"minecraft:custom_model_data":71002}}]}] run function pirates:items/hat/bell_hat
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Tags:["pir.bell_hat.bb"]},"minecraft:custom_model_data":71006,"!minecraft:damage":165}}]}] run function pirates:items/hat/bell_fix
+#execute if items entity @s container.* minecraft:iron_helmet[minecraft:custom_model_data=71006,repair_cost=3] run function pirates:items/hat/bell_fix  я так и не придумал как менять модель после починки
 #rifle
 execute if entity @s[nbt={Inventory:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{Tags:["pir.rifle.bb"]}}}]}] run function pirates:items/rifle/main
 #pistol
