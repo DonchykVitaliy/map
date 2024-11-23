@@ -2,8 +2,8 @@ scoreboard players add @s pir.attack_time_2 1
 
 execute if score @s pir.attack_time_2 matches 1 run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=pir.davy_jones.mob] item.components.minecraft:custom_model_data set value 79384
 
-say at
 execute if score @s pir.attack_time_2 matches 10 run effect give @a[distance=..20,gamemode=!creative,gamemode=!spectator] minecraft:levitation 1 13 true
+execute if score @s pir.attack_time_2 matches 10.. at @a[distance=..20,gamemode=!creative,gamemode=!spectator] run particle cloud ~ ~0.5 ~ 0.2 0.5 0.2 0.1 2
 
 execute if score @s pir.attack_time_2 matches 37.. run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=pir.davy_jones.mob] item.components.minecraft:custom_model_data set value 79380
 execute if score @s pir.attack_time_2 matches 37.. run effect clear @s slowness

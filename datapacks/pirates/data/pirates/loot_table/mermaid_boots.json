@@ -14,6 +14,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "model": "minecraft:boots/mermaid_boots"
+                                  },
                 "minecraft:max_damage": 255
               }
             },
@@ -26,16 +30,6 @@
               "target": "item_name",
               "name": {
                 "translate": "pir.mermaid_boots.bb"
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:trim": {
-                  "material": "minecraft:quartz",
-                  "pattern": "minecraft:mermaid",
-                  "show_in_tooltip": false
-                }
               }
             }
           ]

@@ -80,6 +80,7 @@ scoreboard objectives add pir.boss_pistol.time dummy
 scoreboard objectives add pir.boss_health.bb dummy
 scoreboard objectives add pir.davy_health.bb dummy
 scoreboard objectives add pir.davy_bossbar.bb dummy
+scoreboard objectives add pir.attack_4.refresh dummy
 #crafts
 scoreboard objectives add pir.craft_recipe1.paper dummy
 scoreboard objectives add pir.craft_recipe1.selected dummy
