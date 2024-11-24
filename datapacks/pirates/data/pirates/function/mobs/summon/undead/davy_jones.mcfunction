@@ -10,5 +10,5 @@ bossbar set minecraft:pir.davy_jones_health.bb color green
 
 scoreboard players set @e[type=vindicator,sort=nearest,tag=pir.davy_jones.mob] pir.moment_time 120
 scoreboard players set @e[type=vindicator,sort=nearest,tag=pir.davy_jones.mob] pir.attack_2.refresh 300
-scoreboard players set @e[type=vindicator,sort=nearest,tag=pir.davy_jones.mob] pir.attack_3.refresh 0
+scoreboard players set @e[type=vindicator,sort=nearest,tag=pir.davy_jones.mob] pir.attack_3.refresh 800
 scoreboard players set @e[type=vindicator,sort=nearest,tag=pir.davy_jones.mob] pir.attack_4.refresh 300
