@@ -18,7 +18,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
+          "name": "minecraft:stick"
         }
       ]
     },
@@ -179,11 +179,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "pirates:beer"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air"
+          "value": "pirates:beer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },

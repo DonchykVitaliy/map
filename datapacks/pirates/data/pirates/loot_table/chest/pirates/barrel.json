@@ -68,15 +68,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
+                "min": 0,
                 "max": 4
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air"
         }
       ]
     },

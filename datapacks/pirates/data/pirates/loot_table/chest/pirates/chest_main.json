@@ -120,7 +120,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:rum"
+          "value": "pirates:rum"
         }
       ]
     },
@@ -129,11 +129,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "pirates:black_headband"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air"
+          "value": "pirates:black_headband",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -142,11 +147,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "pirates:beer"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air"
+          "value": "pirates:beer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },

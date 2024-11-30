@@ -3225,42 +3225,6 @@
     },
     "done": true
   },
-  "pirates:pirates/root": {
-    "criteria": {
-      "dowm_dp": "2024-08-21 13:23:24 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/recipe_machine": {
-    "criteria": {
-      "vessel": "2024-09-03 14:14:26 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/cup": {
-    "criteria": {
-      "explored_swamp": "2024-09-08 11:32:38 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/heart": {
-    "criteria": {
-      "explored_swamp": "2024-09-09 18:07:36 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/key": {
-    "criteria": {
-      "explored_swamp": "2024-09-14 18:27:17 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/vessel": {
-    "criteria": {
-      "vessel": "2024-09-14 18:27:25 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2024-09-14 20:10:52 +0300"
@@ -3276,141 +3240,6 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2024-09-14 20:10:52 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/quest": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:20:25 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/second_boss": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/all_tincture": {
-    "criteria": {
-      "berry": "2024-09-15 15:53:21 +0300",
-      "rum": "2024-09-15 15:53:21 +0300",
-      "pumpkin": "2024-09-15 15:53:21 +0300",
-      "beer": "2024-09-15 15:53:21 +0300",
-      "coconut": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/ride_turtle": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/turtle_soup": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/harp": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/pirates_of_the_caribbean": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/cannon": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/breawing_barrel": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/gold_horn": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/upgrade": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/sword": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/boss": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/pirate_sheap": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/mermaid_boots": {
-    "criteria": {
-      "vessel": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/adventure": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/bigsty": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/mermaid_trim": {
-    "criteria": {
-      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:dune_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:bolt_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:shaper_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:eye_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:coast_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:wayfinder_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:vex_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:flow_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:host_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300",
-      "armor_trimmed_minecraft:raiser_armor_trim_smithing_template_smithing_trim": "2024-09-15 15:53:21 +0300"
-    },
-    "done": true
-  },
-  "pirates:pirates/shell": {
-    "criteria": {
-      "explored_swamp": "2024-09-15 15:53:21 +0300"
     },
     "done": true
   },
@@ -3438,12 +3267,6 @@
     },
     "done": true
   },
-  "pirates:pirates/oar": {
-    "criteria": {
-      "explored_swamp": "2024-09-17 18:03:55 +0300"
-    },
-    "done": true
-  },
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2024-09-26 13:34:00 +0300"
@@ -3453,66 +3276,6 @@
   "minecraft:recipes/tools/bundle": {
     "criteria": {
       "has_string": "2024-11-09 22:09:05 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/mermaid_scales": {
-    "criteria": {
-      "vessel": "2024-11-10 18:02:55 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/turtle_scute": {
-    "criteria": {
-      "vessel": "2024-11-10 18:06:57 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/string": {
-    "criteria": {
-      "vessel": "2024-11-10 18:10:46 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/kelp": {
-    "criteria": {
-      "vessel": "2024-11-10 18:11:37 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/cheese": {
-    "criteria": {
-      "vessel": "2024-11-10 18:11:47 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/egg": {
-    "criteria": {
-      "vessel": "2024-11-10 18:12:32 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/bamboo": {
-    "criteria": {
-      "vessel": "2024-11-10 18:15:33 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/iron": {
-    "criteria": {
-      "vessel": "2024-11-10 18:15:54 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/leather": {
-    "criteria": {
-      "vessel": "2024-11-10 18:17:05 +0200"
-    },
-    "done": true
-  },
-  "pirates:recipes/gold": {
-    "criteria": {
-      "vessel": "2024-11-10 18:18:01 +0200"
     },
     "done": true
   },
@@ -3531,12 +3294,6 @@
   "minecraft:recipes/tools/red_bundle": {
     "criteria": {
       "has_red_dye": "2024-11-12 16:05:30 +0200"
-    },
-    "done": true
-  },
-  "pirates:pirates/mermaid": {
-    "criteria": {
-      "eat_mermaid": "2024-11-12 16:49:59 +0200"
     },
     "done": true
   },
@@ -3567,6 +3324,104 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2024-11-23 12:57:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/white_bundle": {
+    "criteria": {
+      "has_white_dye": "2024-11-24 12:55:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2024-11-24 12:55:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-11-24 12:58:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-11-24 13:03:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-11-24 13:03:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-11-24 13:03:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-11-24 13:03:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-11-24 13:03:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-11-24 13:26:07 +0200"
+    },
+    "done": true
+  },
+  "pirates:pirates/root": {
+    "criteria": {
+      "dowm_dp": "2024-11-25 14:32:53 +0200"
+    },
+    "done": true
+  },
+  "pirates:pirates/all_tincture": {
+    "criteria": {
+      "rum": "2024-11-26 10:51:47 +0200",
+      "pumpkin": "2024-11-25 15:00:35 +0200",
+      "beer": "2024-11-26 10:51:49 +0200"
+    },
+    "done": false
+  },
+  "pirates:recipes/kelp": {
+    "criteria": {
+      "vessel": "2024-11-25 15:00:35 +0200"
+    },
+    "done": true
+  },
+  "pirates:recipes/iron": {
+    "criteria": {
+      "vessel": "2024-11-25 15:00:59 +0200"
+    },
+    "done": true
+  },
+  "pirates:recipes/gold": {
+    "criteria": {
+      "vessel": "2024-11-25 15:00:59 +0200"
+    },
+    "done": true
+  },
+  "pirates:recipes/cheese": {
+    "criteria": {
+      "vessel": "2024-11-26 10:49:24 +0200"
+    },
+    "done": true
+  },
+  "pirates:recipes/string": {
+    "criteria": {
+      "vessel": "2024-11-26 10:51:12 +0200"
     },
     "done": true
   },

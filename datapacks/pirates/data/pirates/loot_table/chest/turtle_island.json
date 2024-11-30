@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "pirates:tourtle_soup"
+          "value": "pirates:turtle_soup"
         }
       ],
       "conditions": [
@@ -179,10 +179,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air"
         }
       ]
     }

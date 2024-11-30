@@ -138,11 +138,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "pirates:red_headband"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air"
+          "value": "pirates:red_headband",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },
